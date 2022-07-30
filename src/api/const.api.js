@@ -1,6 +1,6 @@
 import axios from "axios";
 
-export const URL_API = "http://localhost:3050/api";
+export const URL_API = "https://fake-api-hotel-json-server.herokuapp.com/api";
 
 export const API = {
   get: (url) => axios.get(url),

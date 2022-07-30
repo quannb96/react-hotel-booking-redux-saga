@@ -103,7 +103,7 @@ function RoomItem({ room, option }) {
                 <Row className="rate-price-select">
                   <Col xs={24} sm={16} md={16} xl={16}>
                     <p style={{ fontWeight: 700 }}>VND {roomPriceString} </p>
-                    <p>{sumGuest} guests, 1 night</p>
+                    <p>1 night</p>
                   </Col>
 
                   <Col sx={24} sm={8} md={8} xl={8}>
@@ -124,7 +124,7 @@ function RoomItem({ room, option }) {
                 <Row className="rate-price-select">
                   <Col xs={24} sm={16} md={16} xl={16}>
                     <p style={{ fontWeight: 700 }}>VND {roomPriceString} </p>
-                    <p>{sumGuest} guests, 1 night</p>
+                    <p>1 night</p>
                   </Col>
 
                   <Col sx={24} sm={8} md={8} xl={8}>
@@ -137,7 +137,7 @@ function RoomItem({ room, option }) {
                 <Row className="rate-price-select">
                   <Col xs={24} sm={16} md={16} xl={16}>
                     <p style={{ fontWeight: 700 }}>VND {roomPriceString} </p>
-                    <p>{sumGuest} guests, 1 night</p>
+                    <p>1 night</p>
                   </Col>
 
                   <Col sx={24} sm={8} md={8} xl={8}>
@@ -158,7 +158,7 @@ function RoomItem({ room, option }) {
                 <Row className="rate-price-select">
                   <Col xs={24} sm={16} md={16} xl={16}>
                     <p style={{ fontWeight: 700 }}>VND {roomPriceString} </p>
-                    <p>{sumGuest} guests, 1 night</p>
+                    <p>1 night</p>
                   </Col>
 
                   <Col sx={24} sm={8} md={8} xl={8}>

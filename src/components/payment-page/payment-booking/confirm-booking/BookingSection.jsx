@@ -1,11 +1,11 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { useContext, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { CheckOutlined } from "@ant-design/icons";
 import { CustomerContext } from "../../../../providers/CustomerContext";
 import { fetchBookingAction } from "../../../../stores/slices/bookingHome.slice";
-import { Collapse } from "antd";
+import { Collapse, Row, Col } from "antd";
 import { DownOutlined } from "@ant-design/icons";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const { Panel } = Collapse;
 
@@ -17,7 +17,7 @@ function BookingSection() {
   const [ellipsisIntroduction, setEllipsisIntroduction] = useState(false);
 
   const dispatch = useDispatch();
-  console.log("bookingState :>> ", bookingState.data);
+  let isLoading = bookingState?.loading;
 
   let bookingLast = bookingState?.data.length;
   let bookingNumber = bookingState?.data[bookingLast - 1].id;
@@ -69,11 +69,7 @@ function BookingSection() {
           <h6>
             <CheckOutlined />
             &nbsp; Booking Number:{" "}
-            {bookingNumber === undefined ? (
-              ""
-            ) : (
-              <b style={{ color: "blue" }}>{bookingNumber}</b>
-            )}
+            {!isLoading && <b style={{ color: "blue" }}>{bookingNumber}</b>}
           </h6>
 
           <h6 style={{ display: "flex" }}>
@@ -139,13 +135,22 @@ function BookingSection() {
             </div>
           </Panel>
         </Collapse>
-        <NavLink to="/">
-          <div className="pay-submit-contact">
-            <button onClick={handleComeHomePage} className="pay-submit-btn">
-              OK! Come Home Page
-            </button>
-          </div>
-        </NavLink>
+        <Row justify="space-around" className="btn-booking-section">
+          <Col xs={24} sm={12} md={12} lg={12}>
+            <NavLink to="bookinghistory">
+              <button onClick={handleComeHomePage} className="pay-btn-logout">
+                View My Bookings
+              </button>
+            </NavLink>
+          </Col>
+          <Col xs={24} sm={12} md={12} lg={12}>
+            <Link to="/">
+              <button onClick={handleComeHomePage} className="pay-btn-logout">
+                OK! Come Home Page
+              </button>
+            </Link>
+          </Col>
+        </Row>
       </div>
     </div>
   );
