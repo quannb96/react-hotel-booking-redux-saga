@@ -137,7 +137,7 @@ function BookingSection() {
         </Collapse>
         <Row justify="space-around" className="btn-booking-section">
           <Col xs={24} sm={12} md={12} lg={12}>
-            <NavLink to="bookinghistory">
+            <NavLink to="/bookinghistory">
               <button onClick={handleComeHomePage} className="pay-btn-logout">
                 View My Bookings
               </button>
