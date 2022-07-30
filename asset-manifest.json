@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/react-hotel-booking-redux-saga/static/css/main.689a52ac.css",
+    "main.js": "/react-hotel-booking-redux-saga/static/js/main.11de04ff.js",
+    "static/js/787.d720e1bd.chunk.js": "/react-hotel-booking-redux-saga/static/js/787.d720e1bd.chunk.js",
+    "static/media/header-image-1.jpg": "/react-hotel-booking-redux-saga/static/media/header-image-1.aeda5cf2207992fe1120.jpg",
+    "static/media/header-image-2.jpg": "/react-hotel-booking-redux-saga/static/media/header-image-2.f9ed2d5b6b8d3379c0c6.jpg",
+    "static/media/map.png": "/react-hotel-booking-redux-saga/static/media/map.a8f7471f9c1e7b6062b2.png",
+    "static/media/header-image-3.jpg": "/react-hotel-booking-redux-saga/static/media/header-image-3.f984ada0612af10b6981.jpg",
+    "static/media/header-image-4.jpg": "/react-hotel-booking-redux-saga/static/media/header-image-4.2c31785b9606a47e842b.jpg",
+    "static/media/ocean_villas_logo_6.png": "/react-hotel-booking-redux-saga/static/media/ocean_villas_logo_6.020f5dfaa40bca22a42f.png",
+    "index.html": "/react-hotel-booking-redux-saga/index.html",
+    "main.689a52ac.css.map": "/react-hotel-booking-redux-saga/static/css/main.689a52ac.css.map",
+    "main.11de04ff.js.map": "/react-hotel-booking-redux-saga/static/js/main.11de04ff.js.map",
+    "787.d720e1bd.chunk.js.map": "/react-hotel-booking-redux-saga/static/js/787.d720e1bd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.689a52ac.css",
+    "static/js/main.11de04ff.js"
+  ]
+}
